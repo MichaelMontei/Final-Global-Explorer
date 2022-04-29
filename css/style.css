@@ -204,6 +204,8 @@ img {
     ===== ACCENT COLOR =====
  */
 * {
+  margin: 0 auto;
+  padding: 0;
   background-color: rgb(245, 245, 240);
 }
 
