@@ -422,12 +422,5 @@ img {
     width: 290px;
   }
 }
-.popsmoke {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://images.unsplash.com/photo-1517457373958-b7bdd4587205?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);
-  -webkit-background-size: cover;
-  background-size: cover;
-  background-position: center center;
-  margin: 350px;
-}
 
 /*# sourceMappingURL=style.css.map */
