@@ -8,6 +8,15 @@
 For our group project we created a travel agency that sells active exploring packages.
 So it's not your average holiday vacation. We want people to explore their destination in an active way, we want to connect them with nature.
 
+We made 5 different pages:
+
+- [Homepage]()
+- Services
+- Team
+- Testimonials
+- Contact
+
+
 ---
 
 ## Preview
