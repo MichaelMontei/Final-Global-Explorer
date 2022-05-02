@@ -1,6 +1,6 @@
 # Global Explorer
 - Made by @PabloGP18, @MichaelMontei, @alex197925 and @z3no
-*This is our first group project at BeCode, the goal is to learn and work together, divide tasks among each other and set up a good working structure.*
+*This is our first group project at BeCode, the goal is to learn and work together, divide tasks among each other and set up a good working structure. Thus we learn how to complete a project so it can be delivered to a client.*
 
 ---
 
@@ -10,11 +10,11 @@ So it's not your average holiday vacation. We want people to explore their desti
 
 We made 5 different pages:
 
-- [Homepage]()
-- [Services]()
-- [Team]()
-- [Testimonials]()
-- [Contact]()
+- [Homepage]() with a parallax image header
+- [Services]() with bootstrap cards
+- [Team]() with bootstrap cards
+- [Testimonials]() with a carousel
+- [Contact]() with a contact form
 
 
 ---
