@@ -11,6 +11,9 @@ body {
   background-color: rgb(245, 245, 240);
 }
 
+header {
+  position: static;
+}
 header h1 {
   font-family: "Avenir Next", sans-serif;
   text-transform: uppercase;
@@ -20,7 +23,8 @@ header h1 {
 }
 
 main {
-  height: 75vh;
+  position: static;
+  margin-top: 50px;
 }
 main h5 {
   color: rgb(30, 25, 25);

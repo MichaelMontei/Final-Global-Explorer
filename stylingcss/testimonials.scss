@@ -6,6 +6,8 @@ body {
 
 header {
 
+  position: static;
+
   h1 {
     font-family: "Avenir Next", sans-serif;
     text-transform: uppercase;
@@ -16,7 +18,8 @@ header {
 }
 
 main {
-  height: 75vh;
+  position: static;
+  margin-top: 50px;
 
   h5 {
     color: $h-mc;

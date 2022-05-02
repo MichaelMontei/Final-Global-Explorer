@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* Error: expected "{".
  *   ,
  * 1 | footer
@@ -15,3 +16,30 @@ body::before {
   border-bottom: 2px solid black;
   content: 'Error: expected "{".\a   \2577 \a 1 \2502  footer\a   \2502        ^\a   \2575 \a   footer.scss 1:7  root stylesheet';
 }
+=======
+.footer-codematra a {
+  color: rgba(0, 0, 0, 0.55);
+  text-decoration: none;
+  padding: 20px;
+  display: inline-block;
+}
+
+.footer-codematra p {
+  text-align: center;
+  margin: 0;
+  font-size: 14px;
+  padding: 10px 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+@media only screen and (max-width: 600px) {
+  .footer-codematra {
+    display: none;
+  }
+}
+.main-team {
+  height: 80vh;
+}
+
+/*# sourceMappingURL=footer.css.map */
+>>>>>>> 91aeeeb7301a0165ddb3c5b58e17fb797f56dd00
