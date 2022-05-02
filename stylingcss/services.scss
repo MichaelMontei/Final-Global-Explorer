@@ -6,6 +6,11 @@ $pink: #F29DAB;
 $rose: #DD899E;
 $tan: #F2CDC1;
 $taupe: #D0B2AF;
+$desktop: 1200px;
+$laptop: 1024px;
+$tablet: 768px;
+$phone: 480px;
+
 
 
 .box {
@@ -97,32 +102,43 @@ header {
     display: flex;
     justify-content: center;
     padding-top: 50px;
+
+  }
+
+  main {
+    height: 75vh;
+
+    h5 {
+      color: $h-mc;
+    }
+
+    p.quote {
+      color: $p-mc;
+      font-size: 16px;
+    }
+
+    p.accent {
+      color: $blue;
+    }
+  }
+
+  .navbar-brand {
+    flex: 7;
+    padding-left: 40px;
+    position: sticky;
+  }
+
+  .nav-item {
+    margin-right: 10px;
   }
 }
 
 main {
-  height: 75vh;
-
-  h5 {
-    color: $h-mc;
-  }
-
-  p.quote{
-    color: $p-mc;
-    font-size: 16px;
-  }
-
-  p.accent {
-    color: $blue;
+  @media (max-width: $laptop){
+    display: flex;
+    padding-top: 100px;
   }
 }
 
-.navbar-brand {
-  flex: 7;
-  padding-left: 40px;
-  position: sticky;
-}
 
-.nav-item {
-  margin-right: 10px;
-}
+

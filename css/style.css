@@ -238,29 +238,33 @@ header h1 {
   justify-content: center;
   padding-top: 50px;
 }
-
-main {
+header main {
   height: 75vh;
 }
-main h5 {
+header main h5 {
   color: rgb(30, 25, 25);
 }
-main p.quote {
+header main p.quote {
   color: rgba(54, 54, 54, 0.8);
   font-size: 16px;
 }
-main p.accent {
+header main p.accent {
   color: rgb(107, 189, 201);
 }
-
-.navbar-brand {
+header .navbar-brand {
   flex: 7;
   padding-left: 40px;
   position: sticky;
 }
-
-.nav-item {
+header .nav-item {
   margin-right: 10px;
+}
+
+@media (max-width: 1024px) {
+  main {
+    display: flex;
+    padding-top: 100px;
+  }
 }
 
 .navbar-brand {
