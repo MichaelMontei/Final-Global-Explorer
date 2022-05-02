@@ -167,10 +167,22 @@ img {
 .date {
   color: #D0B2AF; }
 
+/*
+    ===== BACKGROUND COLOR =====
+ */
+/*
+    ===== TEXT COLORS =====
+ */
+/*
+    ===== ACCENT COLOR =====
+ */
 .navbar-brand {
   flex: 7;
   padding-left: 40px;
   position: sticky; }
+  .navbar-brand img {
+    width: 20px;
+    height: 20px; }
 
 .nav-item {
   margin-right: 10px; }
@@ -183,6 +195,12 @@ img {
   z-index: 1;
   position: fixed;
   width: 100%; }
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(8, 5vw);
+  grid-gap: 15px; }
 
 .footer-codematra {
   background: #f8f9fa;
@@ -276,7 +294,7 @@ img {
   color: #3b8595; }
 
 .ny {
-  color: #3d3c3a; }
+  color: #6bbdc9; }
 
 .atw {
   color: #c48660; }
@@ -362,7 +380,7 @@ img {
 /* Extras */
 /**************************/
 #parallax-world-of-ugg .line-break {
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #6bbdc9;
   width: 150px;
   margin: 0 auto; }
 
