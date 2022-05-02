@@ -11,10 +11,10 @@ So it's not your average holiday vacation. We want people to explore their desti
 We made 5 different pages:
 
 - [Homepage]()
-- Services
-- Team
-- Testimonials
-- Contact
+- [Services]()
+- [Team]()
+- [Testimonials]()
+- [Contact]()
 
 
 ---
