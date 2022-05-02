@@ -1,0 +1,22 @@
+footer{
+  width: 100%;
+  display: flex;
+  background-color:#f8f9fa;
+  color: rgba(0,0,0,.55);
+  height: 70px;
+  align-items: center;
+  justify-content: space-around;
+  line-height: 1.8;
+  a{
+    color:  rgba(0,0,0,.55);
+  }
+  a:hover{
+    text-decoration: none;
+  }
+
+}
+@media only screen and (max-width: 765px) {
+  footer{
+    display: none;
+  }
+}
