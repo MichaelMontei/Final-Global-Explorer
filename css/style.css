@@ -148,6 +148,15 @@ p {
   border-radius: 5px;
 }
 
+/*
+    ===== BACKGROUND COLOR =====
+ */
+/*
+    ===== TEXT COLORS =====
+ */
+/*
+    ===== ACCENT COLOR =====
+ */
 .box {
   width: 1500px;
   margin: 15% auto;
@@ -216,7 +225,7 @@ img {
 }
 
 .date {
-  color: #D0B2AF;
+  color: rgb(107, 189, 201);
 }
 
 .navbar-brand {
