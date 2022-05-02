@@ -1,4 +1,32 @@
+@import "colors";
+
+body {
+  background-color: $bg;
+}
+
 main {
   height: 90vh;
-  background-color: red;
+
+  h5 {
+    color: $h-mc;
+  }
+
+  p.quote{
+    color: $p-mc;
+    font-size: 16px;
+  }
+
+  p.accent {
+    color: $blue;
+  }
+}
+
+.navbar-brand {
+  flex: 7;
+  padding-left: 40px;
+  position: sticky;
+}
+
+.nav-item {
+  margin-right: 10px;
 }

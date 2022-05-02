@@ -7,6 +7,19 @@
 /*
     ===== ACCENT COLOR =====
  */
+body {
+  background-color: rgb(245, 245, 240);
+}
+
+/*
+    ===== BACKGROUND COLOR =====
+ */
+/*
+    ===== TEXT COLORS =====
+ */
+/*
+    ===== ACCENT COLOR =====
+ */
 .profile-card {
   position: relative;
   overflow: hidden;

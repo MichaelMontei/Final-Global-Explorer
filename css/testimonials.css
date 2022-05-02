@@ -1,6 +1,38 @@
+/*
+    ===== BACKGROUND COLOR =====
+ */
+/*
+    ===== TEXT COLORS =====
+ */
+/*
+    ===== ACCENT COLOR =====
+ */
+body {
+  background-color: rgb(245, 245, 240);
+}
+
 main {
   height: 90vh;
-  background-color: red;
+}
+main h5 {
+  color: rgb(30, 25, 25);
+}
+main p.quote {
+  color: rgba(54, 54, 54, 0.8);
+  font-size: 16px;
+}
+main p.accent {
+  color: rgb(107, 189, 201);
+}
+
+.navbar-brand {
+  flex: 7;
+  padding-left: 40px;
+  position: sticky;
+}
+
+.nav-item {
+  margin-right: 10px;
 }
 
 /*# sourceMappingURL=testimonials.css.map */

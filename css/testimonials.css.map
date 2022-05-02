@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":["../stylingcss/testimonials.scss"],"names":[],"mappings":"AAAA;EACE;EACA","file":"testimonials.css"}
+{"version":3,"sourceRoot":"","sources":["../stylingcss/colors.scss","../stylingcss/testimonials.scss"],"names":[],"mappings":"AAAA;AAAA;AAAA;AAOA;AAAA;AAAA;AAOA;AAAA;AAAA;ACZA;EACE,kBDCG;;;ACEL;EACE;;AAEA;EACE,ODCG;;ACEL;EACE,ODFG;ECGH;;AAGF;EACE,ODDG;;;ACKP;EACE;EACA;EACA;;;AAGF;EACE","file":"testimonials.css"}
