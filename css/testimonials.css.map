@@ -1,11 +1,1 @@
-<<<<<<< HEAD
 {"version":3,"sourceRoot":"","sources":["../stylingcss/colors.scss","../stylingcss/testimonials.scss"],"names":[],"mappings":"AAAA;AAAA;AAAA;AAOA;AAAA;AAAA;AAOA;AAAA;AAAA;ACZA;EACE,kBDCG;;;ACIH;EACE;EACA;EACA;EACA;EACA,ODKG;;;ACDP;EACE;;AAEA;EACE,ODVG;;ACaL;EACE,ODbG;ECcH;;AAGF;EACE,ODZG;;;ACgBP;EACE;EACA;EACA;;;AAGF;EACE","file":"testimonials.css"}
-=======
-{
-"version": 3,
-"mappings": "AAAA;;GAEG;AAKH;;GAEG;AAKH;;GAEG;ACdH,IAAK;EACH,gBAAgB,EDCb,OAAuB;;ACE5B,IAAK;EACH,MAAM,EAAE,IAAI;EAEZ,OAAG;IACD,KAAK,EDCF,OAAoB;ECEzB,YAAO;IACL,KAAK,EDFF,qBAAsB;ICGzB,SAAS,EAAE,IAAI;EAGjB,aAAS;IACP,KAAK,EDDF,OAAuB;;ACK9B,aAAc;EACZ,IAAI,EAAE,CAAC;EACP,YAAY,EAAE,IAAI;EAClB,QAAQ,EAAE,MAAM;;AAGlB,SAAU;EACR,YAAY,EAAE,IAAI",
-"sources": ["../stylingcss/colors.scss","../stylingcss/testimonials.scss"],
-"names": [],
-"file": "testimonials.css"
-}
->>>>>>> c918999d9cee80d07d60c81fede147457520d8ea

@@ -8,7 +8,8 @@
     ===== ACCENT COLOR =====
  */
 body {
-  background-color: #f5f5f0; }
+  background-color: rgb(245, 245, 240);
+}
 
 header h1 {
   font-family: "Avenir Next", sans-serif;
@@ -19,7 +20,6 @@ header h1 {
 }
 
 main {
-<<<<<<< HEAD
   height: 75vh;
 }
 main h5 {
@@ -32,23 +32,15 @@ main p.quote {
 main p.accent {
   color: rgb(107, 189, 201);
 }
-=======
-  height: 90vh; }
-  main h5 {
-    color: #1e1919; }
-  main p.quote {
-    color: rgba(54, 54, 54, 0.8);
-    font-size: 16px; }
-  main p.accent {
-    color: #6bbdc9; }
->>>>>>> c918999d9cee80d07d60c81fede147457520d8ea
 
 .navbar-brand {
   flex: 7;
   padding-left: 40px;
-  position: sticky; }
+  position: sticky;
+}
 
 .nav-item {
-  margin-right: 10px; }
+  margin-right: 10px;
+}
 
 /*# sourceMappingURL=testimonials.css.map */
