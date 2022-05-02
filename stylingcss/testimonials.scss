@@ -4,8 +4,19 @@ body {
   background-color: $bg;
 }
 
+header {
+
+  h1 {
+    font-family: "Avenir Next", sans-serif;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-style: italic;
+    color: $blue;
+  }
+}
+
 main {
-  height: 90vh;
+  height: 75vh;
 
   h5 {
     color: $h-mc;
