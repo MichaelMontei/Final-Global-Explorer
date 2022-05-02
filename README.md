@@ -10,11 +10,11 @@ So it's not your average holiday vacation. We want people to explore their desti
 
 We made 5 different pages:
 
-- [Homepage]() with a parallax image header
-- [Services]() with bootstrap cards
-- [Team]() with bootstrap cards
-- [Testimonials]() with a carousel
-- [Contact]() with a contact form
+- [Homepage]() *with a parallax image header*
+- [Services]() *with bootstrap cards*
+- [Team]() *with bootstrap cards*
+- [Testimonials]() *with a carousel*
+- [Contact]() *with a contact form*
 
 
 ---
