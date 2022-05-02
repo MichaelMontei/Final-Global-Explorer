@@ -1,5 +1,6 @@
 @import "colors";
 
+
 $white: #F9F3E4;
 $pink: #F29DAB;
 $rose: #DD899E;
@@ -83,4 +84,45 @@ img {
 
 .date {
   color: $blue;
+}
+
+header {
+
+  h1 {
+    font-family: "Avenir Next", sans-serif;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-style: italic;
+    color: $blue;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+  }
+}
+
+main {
+  height: 75vh;
+
+  h5 {
+    color: $h-mc;
+  }
+
+  p.quote{
+    color: $p-mc;
+    font-size: 16px;
+  }
+
+  p.accent {
+    color: $blue;
+  }
+}
+
+.navbar-brand {
+  flex: 7;
+  padding-left: 40px;
+  position: sticky;
+}
+
+.nav-item {
+  margin-right: 10px;
 }
