@@ -11,6 +11,10 @@ body {
   background-color: rgb(245, 245, 240);
 }
 
+p {
+  color: rgba(54, 54, 54, 0.8);
+}
+
 /*
     ===== BACKGROUND COLOR =====
  */
