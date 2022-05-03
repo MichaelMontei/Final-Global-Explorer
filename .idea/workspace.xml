@@ -5,20 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc7f536f-28a6-48e1-8b19-db1ac69432ee" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/services.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/team.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/testimonials.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stylingcss/colors.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stylingcss/contact.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stylingcss/fonts.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stylingcss/footer.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stylingcss/global.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stylingcss/index.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stylingcss/navbar.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stylingcss/services.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stylingcss/style.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stylingcss/team.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/fonts.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/fonts.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/navbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/navbar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/services.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/services.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,21 +39,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/zeebr/Desktop/Be-Code Projects/Final-Global-Explorer/pages",
-    "list.type.of.created.stylesheet": "SCSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/zeebr/Desktop/Be-Code Projects/Final-Global-Explorer/pages&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;SCSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\zeebr\Desktop\Be-Code Projects\Final-Global-Explorer\pages" />
@@ -76,6 +68,7 @@
       <option name="presentableId" value="Default" />
       <updated>1651195063759</updated>
       <workItem from="1651195065270" duration="2200000" />
+      <workItem from="1651589582818" duration="69000" />
     </task>
     <servers />
   </component>
