@@ -42,13 +42,53 @@ p {
 /*
     ===== ACCENT COLOR =====
  */
-body {
-  background-color: rgb(245, 245, 240);
+/*footer{
+  width: 100%;
+  display: flex;
+  background-color:#f8f9fa;
+  color: rgba(0,0,0,.55);
+  height: 70px;
+  align-items: center;
+  justify-content: space-around;
+  line-height: 1.8;
+  a{
+    color:  rgba(0,0,0,.55);
+  }
+  a:hover{
+    text-decoration: none;
+  }
+
+}
+ */
+footer {
+  background-color: yellow;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  line-height: 1.8rem;
+}
+footer a {
+  color: rgba(0, 0, 0, 0.55);
+}
+footer a:hover {
+  text-decoration: none;
 }
 
-header {
-  position: static;
+@media only screen and (max-width: 765px) {
+  footer {
+    display: none;
+  }
 }
+body {
+  background-color: rgb(245, 245, 240);
+  margin: 0;
+}
+
+nav {
+  display: block;
+}
+
 header h1 {
   font-family: "Avenir Next", sans-serif;
   text-transform: uppercase;
@@ -58,7 +98,6 @@ header h1 {
 }
 
 main {
-  position: static;
   margin-top: 50px;
 }
 main h5 {
@@ -70,6 +109,10 @@ main p.quote {
 }
 main p.accent {
   color: rgb(107, 189, 201);
+}
+main img.round {
+  width: 150px;
+  height: 150px;
 }
 
 .navbar-brand {
@@ -140,6 +183,15 @@ footer {
 /*
     ===== ACCENT COLOR =====
  */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 100px;
+  padding-bottom: 150px;
+}
+
 .box {
   width: 1500px;
   margin: 15% auto;
@@ -152,7 +204,7 @@ footer {
   margin: 30px;
   width: 300px;
   height: 400px;
-  z-index: 1;
+  z-index: -1;
   float: left;
   perspective: 1000px;
 }
@@ -219,7 +271,7 @@ header h1 {
   color: rgb(107, 189, 201);
   display: flex;
   justify-content: center;
-  padding-top: 50px;
+  padding-top: 100px;
 }
 header main {
   height: 75vh;
@@ -243,11 +295,20 @@ header .nav-item {
   margin-right: 10px;
 }
 
-@media (max-width: 1024px) {
-  main {
-    display: flex;
-    padding-top: 100px;
+@media (max-width: 1200px) {
+  .container .card {
+    margin-bottom: 30px;
   }
+}
+
+@media (min-width: 768px) {
+  .container .card {
+    margin-bottom: 30px;
+  }
+}
+
+.card {
+  min-height: 650px;
 }
 
 /*
