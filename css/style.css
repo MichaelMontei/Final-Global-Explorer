@@ -197,11 +197,27 @@ header .nav-item {
   }
 }
 
+/*
+    ===== BACKGROUND COLOR =====
+ */
+/*
+    ===== TEXT COLORS =====
+ */
+/*
+    ===== ACCENT COLOR =====
+ */
 .navbar-brand {
   flex: 7;
   padding-left: 40px;
+<<<<<<< HEAD
   position: sticky;
 }
+=======
+  position: sticky; }
+  .navbar-brand img {
+    width: 20px;
+    height: 20px; }
+>>>>>>> parallax
 
 .nav-item {
   margin-right: 10px;
@@ -211,6 +227,40 @@ header .nav-item {
   margin: 0 auto;
 }
 
+.navbar,
+.navbar-expand-lg {
+  z-index: 1;
+  position: fixed;
+  width: 100%; }
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(8, 5vw);
+  grid-gap: 15px; }
+
+.footer-codematra {
+  background: #f8f9fa;
+  color: rgba(0, 0, 0, 0.55);
+  width: 100%;
+  text-align: center; }
+
+.footer-codematra a {
+  color: rgba(0, 0, 0, 0.55);
+  text-decoration: none;
+  padding: 20px;
+  display: inline-block; }
+
+.footer-codematra p {
+  text-align: center;
+  margin: 0;
+  font-size: 14px;
+  padding: 10px 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.2); }
+
+@media only screen and (max-width: 600px) {
+  .footer-codematra {
+    display: none; } }
 /* Override UGG site */
 #main {
   width: 100%;
@@ -292,8 +342,12 @@ header .nav-item {
 }
 
 .ny {
+<<<<<<< HEAD
   color: #3d3c3a;
 }
+=======
+  color: #6bbdc9; }
+>>>>>>> parallax
 
 .atw {
   color: #c48660;
@@ -388,7 +442,7 @@ header .nav-item {
 /* Extras */
 /**************************/
 #parallax-world-of-ugg .line-break {
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #6bbdc9;
   width: 150px;
   margin: 0 auto;
 }

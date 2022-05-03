@@ -1,1 +1,7 @@
-{"version":3,"sourceRoot":"","sources":["../stylingcss/colors.scss"],"names":[],"mappings":"AAAA;AAAA;AAAA;AAOA;AAAA;AAAA;AAOA;AAAA;AAAA","file":"colors.css"}
+{
+"version": 3,
+"mappings": "AAAA;;GAEG;AAKH;;GAEG;AAKH;;GAEG",
+"sources": ["../stylingcss/colors.scss"],
+"names": [],
+"file": "colors.css"
+}
