@@ -50,3 +50,34 @@ footer{
   justify-content: space-around;
   line-height: 1.8rem;
 }
+header{
+
+    h1 {
+      font-family: "Avenir Next", sans-serif;
+      text-transform: uppercase;
+      font-weight: bolder;
+      font-style: italic;
+      color: $blue;
+      display: flex;
+      justify-content: center;
+      padding-top: 100px;
+
+    }
+
+    main {
+      height: 75vh;
+
+      h5 {
+        color: $h-mc;
+      }
+
+      p.quote {
+        color: $p-mc;
+        font-size: 16px;
+      }
+
+      p.accent {
+        color: $blue;
+      }
+    }
+}
