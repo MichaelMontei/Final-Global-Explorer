@@ -1,0 +1,15 @@
+<<<<<<< HEAD
+<<<<<<< HEAD
+{"version":3,"sourceRoot":"","sources":["../stylingcss/global.scss"],"names":[],"mappings":"AAAA;EACE","file":"global.css"}
+=======
+{"version":3,"sourceRoot":"","sources":[],"names":[],"mappings":"","file":"global.css"}
+>>>>>>> testimonials
+=======
+{
+"version": 3,
+"mappings": "",
+"sources": [],
+"names": [],
+"file": "global.css"
+}
+>>>>>>> parallax

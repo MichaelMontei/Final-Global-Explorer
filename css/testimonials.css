@@ -1,0 +1,47 @@
+/*
+    ===== BACKGROUND COLOR =====
+ */
+/*
+    ===== TEXT COLORS =====
+ */
+/*
+    ===== ACCENT COLOR =====
+ */
+body {
+  background-color: rgb(245, 245, 240);
+  margin: 0;
+}
+
+header h1 {
+  font-family: "Avenir Next", sans-serif;
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-style: italic;
+  color: rgb(107, 189, 201);
+}
+
+main {
+  margin-top: 50px;
+}
+main h5 {
+  color: rgb(30, 25, 25);
+}
+main p.quote {
+  color: rgba(54, 54, 54, 0.8);
+  font-size: 16px;
+}
+main p.accent {
+  color: rgb(107, 189, 201);
+}
+
+.navbar-brand {
+  flex: 7;
+  padding-left: 40px;
+  position: sticky;
+}
+
+.nav-item {
+  margin-right: 10px;
+}
+
+/*# sourceMappingURL=testimonials.css.map */

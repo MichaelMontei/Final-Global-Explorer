@@ -1,0 +1,55 @@
+@import "colors";
+@import "footer";
+
+body {
+  background-color: $bg;
+  margin: 0;
+}
+
+nav {
+  display: block;
+}
+
+header {
+
+  h1 {
+    font-family: "Avenir Next", sans-serif;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-style: italic;
+    color: $blue;
+  }
+}
+
+main {
+  margin-top: 50px;
+
+  h5 {
+    color: $h-mc;
+  }
+
+  p.quote{
+    color: $p-mc;
+    font-size: 16px;
+  }
+
+  p.accent {
+    color: $blue;
+  }
+
+  img.round {
+    width: 150px;
+    height: 150px;
+  }
+
+}
+
+.navbar-brand {
+  flex: 7;
+  padding-left: 40px;
+  position: sticky;
+}
+
+.nav-item {
+  margin-right: 10px;
+}
