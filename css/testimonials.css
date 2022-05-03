@@ -9,11 +9,9 @@
  */
 body {
   background-color: rgb(245, 245, 240);
+  margin: 0;
 }
 
-header {
-  position: static;
-}
 header h1 {
   font-family: "Avenir Next", sans-serif;
   text-transform: uppercase;
@@ -23,7 +21,6 @@ header h1 {
 }
 
 main {
-  position: static;
   margin-top: 50px;
 }
 main h5 {
