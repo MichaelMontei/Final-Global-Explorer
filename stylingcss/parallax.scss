@@ -3,7 +3,7 @@
 
 .navbar-brand {
   flex: 7;
- padding-left: 40px;
+  padding-left: 40px;
   position: sticky;
   img {
     width: 20px;
@@ -23,6 +23,7 @@
 .navbar-expand-lg {
   z-index: 1;
   position: fixed;
+  top: 0;
   width: 100%;
 }
 
