@@ -22,6 +22,107 @@ p {
 /*
     ===== ACCENT COLOR =====
  */
+/*
+    ===== BACKGROUND COLOR =====
+ */
+/*
+    ===== TEXT COLORS =====
+ */
+/*
+    ===== ACCENT COLOR =====
+ */
+/*
+    ===== BACKGROUND COLOR =====
+ */
+/*
+    ===== TEXT COLORS =====
+ */
+/*
+    ===== ACCENT COLOR =====
+ */
+/*footer{
+  width: 100%;
+  display: flex;
+  background-color:#f8f9fa;
+  color: rgba(0,0,0,.55);
+  height: 70px;
+  align-items: center;
+  justify-content: space-around;
+  line-height: 1.8;
+  a{
+    color:  rgba(0,0,0,.55);
+  }
+  a:hover{
+    text-decoration: none;
+  }
+
+}
+ */
+footer {
+  background-color: yellow;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  line-height: 1.8rem;
+}
+footer a {
+  color: rgba(0, 0, 0, 0.55);
+}
+footer a:hover {
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 765px) {
+  footer {
+    display: none;
+  }
+}
+body {
+  background-color: rgb(245, 245, 240);
+  margin: 0;
+}
+
+nav {
+  display: block;
+}
+
+header h1 {
+  font-family: "Avenir Next", sans-serif;
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-style: italic;
+  color: rgb(107, 189, 201);
+}
+
+main {
+  margin-top: 50px;
+}
+main h5 {
+  color: rgb(30, 25, 25);
+}
+main p.quote {
+  color: rgba(54, 54, 54, 0.8);
+  font-size: 16px;
+}
+main p.accent {
+  color: rgb(107, 189, 201);
+}
+main img.round {
+  width: 150px;
+  height: 150px;
+}
+
+.navbar-brand {
+  flex: 7;
+  padding-left: 40px;
+  position: sticky;
+}
+
+.nav-item {
+  margin-right: 10px;
+}
+
 .team4 {
   color: #8d97ad;
   font-weight: 300; }
@@ -44,14 +145,21 @@ p {
 rounded circle {
   border-radius: 50% 200%; }
 
+.team4 h1 {
+  font-family: "Avenir Next", sans-serif;
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-style: italic;
+  color: rgb(107, 189, 201);
+}
+
 footer {
-  width: 100%;
+  background-color: yellow;
+  bottom: 0;
   display: flex;
-  background-color: #f8f9fa;
-  color: rgba(0, 0, 0, 0.55);
-  height: 70px;
   align-items: center;
   justify-content: space-around;
+<<<<<<< HEAD
   line-height: 1.8; }
   footer a {
     color: rgba(0, 0, 0, 0.55); }
@@ -61,6 +169,11 @@ footer {
 @media only screen and (max-width: 765px) {
   footer {
     display: none; } }
+=======
+  line-height: 1.8rem;
+}
+
+>>>>>>> 86da869bc93175b2ec67f01bce968a973fdde462
 /*
     ===== BACKGROUND COLOR =====
  */
@@ -70,6 +183,15 @@ footer {
 /*
     ===== ACCENT COLOR =====
  */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 100px;
+  padding-bottom: 150px;
+}
+
 .box {
   width: 1500px;
   margin: 15% auto;
@@ -81,7 +203,7 @@ footer {
   margin: 30px;
   width: 300px;
   height: 400px;
-  z-index: 1;
+  z-index: -1;
   float: left;
   perspective: 1000px; }
 
@@ -138,7 +260,12 @@ header h1 {
   color: #6bbdc9;
   display: flex;
   justify-content: center;
+<<<<<<< HEAD
   padding-top: 50px; }
+=======
+  padding-top: 100px;
+}
+>>>>>>> 86da869bc93175b2ec67f01bce968a973fdde462
 header main {
   height: 75vh; }
   header main h5 {
@@ -155,10 +282,28 @@ header .navbar-brand {
 header .nav-item {
   margin-right: 10px; }
 
+<<<<<<< HEAD
 @media (max-width: 1024px) {
   main {
     display: flex;
     padding-top: 100px; } }
+=======
+@media (max-width: 1200px) {
+  .container .card {
+    margin-bottom: 30px;
+  }
+}
+>>>>>>> 86da869bc93175b2ec67f01bce968a973fdde462
+
+@media (min-width: 768px) {
+  .container .card {
+    margin-bottom: 30px;
+  }
+}
+
+.card {
+  min-height: 650px;
+}
 
 /*
     ===== BACKGROUND COLOR =====
@@ -172,10 +317,19 @@ header .nav-item {
 .navbar-brand {
   flex: 7;
   padding-left: 40px;
+<<<<<<< HEAD
   position: sticky; }
   .navbar-brand img {
     width: 20px;
     height: 20px; }
+=======
+  position: sticky;
+}
+.navbar-brand img {
+  width: 20px;
+  height: 20px;
+}
+>>>>>>> 86da869bc93175b2ec67f01bce968a973fdde462
 
 .nav-item {
   margin-right: 10px; }
@@ -188,7 +342,11 @@ header .nav-item {
   z-index: 1;
   position: fixed;
   width: 100%;
+<<<<<<< HEAD
   top: 0; }
+=======
+}
+>>>>>>> 86da869bc93175b2ec67f01bce968a973fdde462
 
 .img-container-grid {
   display: flex;
@@ -214,6 +372,7 @@ header .nav-item {
   flex: 0 0 40%;
   padding-top: 40%;
   display: grid;
+<<<<<<< HEAD
   position: relative; }
 
 .bigsquare_blank {
@@ -244,26 +403,43 @@ header .nav-item {
   object-fit: cover;
   object-position: center;
   padding: 2.5px; }
+=======
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(8, 5vw);
+  grid-gap: 15px;
+}
+>>>>>>> 86da869bc93175b2ec67f01bce968a973fdde462
 
 .footer-codematra {
   background: #f8f9fa;
   color: rgba(0, 0, 0, 0.55);
   width: 100%;
-  text-align: center; }
+  text-align: center;
+}
 
 .footer-codematra a {
   color: rgba(0, 0, 0, 0.55);
   text-decoration: none;
   padding: 20px;
-  display: inline-block; }
+  display: inline-block;
+}
 
 .footer-codematra p {
   text-align: center;
   margin: 0;
   font-size: 14px;
   padding: 10px 0;
-  border-top: 1px solid rgba(255, 255, 255, 0.2); }
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
 
+<<<<<<< HEAD
+=======
+@media only screen and (max-width: 600px) {
+  .footer-codematra {
+    display: none;
+  }
+}
+>>>>>>> 86da869bc93175b2ec67f01bce968a973fdde462
 /* Override UGG site */
 #main {
   width: 100%;
@@ -334,7 +510,12 @@ header .nav-item {
   color: #3b8595; }
 
 .ny {
+<<<<<<< HEAD
   color: #6bbdc9; }
+=======
+  color: rgb(107, 189, 201);
+}
+>>>>>>> 86da869bc93175b2ec67f01bce968a973fdde462
 
 .atw {
   color: #c48660; }
@@ -420,7 +601,7 @@ header .nav-item {
 /* Extras */
 /**************************/
 #parallax-world-of-ugg .line-break {
-  border-bottom: 1px solid #6bbdc9;
+  border-bottom: 1px solid rgb(107, 189, 201);
   width: 150px;
   margin: 0 auto; }
 
@@ -463,15 +644,5 @@ header .nav-item {
   margin: 400px;
   padding: 50px;
   width: 60%; }
-
-/*
-    ===== BACKGROUND COLOR =====
- */
-/*
-    ===== TEXT COLORS =====
- */
-/*
-    ===== ACCENT COLOR =====
- */
 
 /*# sourceMappingURL=style.css.map */

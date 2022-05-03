@@ -1,12 +1,16 @@
 @import "colors";
+@import "footer";
 
 body {
   background-color: $bg;
+  margin: 0;
+}
+
+nav {
+  display: block;
 }
 
 header {
-
-  position: static;
 
   h1 {
     font-family: "Avenir Next", sans-serif;
@@ -18,7 +22,6 @@ header {
 }
 
 main {
-  position: static;
   margin-top: 50px;
 
   h5 {
@@ -33,6 +36,12 @@ main {
   p.accent {
     color: $blue;
   }
+
+  img.round {
+    width: 150px;
+    height: 150px;
+  }
+
 }
 
 .navbar-brand {

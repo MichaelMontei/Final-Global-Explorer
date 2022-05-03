@@ -1,45 +1,40 @@
-<<<<<<< HEAD
-/* Error: expected "{".
- *   ,
- * 1 | footer
- *   |       ^
- *   '
- *   footer.scss 1:7  root stylesheet */
+/*footer{
+  width: 100%;
+  display: flex;
+  background-color:#f8f9fa;
+  color: rgba(0,0,0,.55);
+  height: 70px;
+  align-items: center;
+  justify-content: space-around;
+  line-height: 1.8;
+  a{
+    color:  rgba(0,0,0,.55);
+  }
+  a:hover{
+    text-decoration: none;
+  }
 
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: 'Error: expected "{".\a   \2577 \a 1 \2502  footer\a   \2502        ^\a   \2575 \a   footer.scss 1:7  root stylesheet';
 }
-=======
-.footer-codematra a {
+ */
+footer {
+  background-color: yellow;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  line-height: 1.8rem;
+}
+footer a {
   color: rgba(0, 0, 0, 0.55);
+}
+footer a:hover {
   text-decoration: none;
-  padding: 20px;
-  display: inline-block;
 }
 
-.footer-codematra p {
-  text-align: center;
-  margin: 0;
-  font-size: 14px;
-  padding: 10px 0;
-  border-top: 1px solid rgba(255, 255, 255, 0.2);
-}
-
-@media only screen and (max-width: 600px) {
-  .footer-codematra {
+@media only screen and (max-width: 765px) {
+  footer {
     display: none;
   }
 }
-.main-team {
-  height: 80vh;
-}
 
 /*# sourceMappingURL=footer.css.map */
->>>>>>> 91aeeeb7301a0165ddb3c5b58e17fb797f56dd00
