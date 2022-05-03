@@ -61,7 +61,7 @@ p {
 }
  */
 footer {
-  background-color: yellow;
+  background-color: #b5d7dc;
   bottom: 0;
   display: flex;
   align-items: center;
@@ -715,7 +715,7 @@ header .nav-item {
 }
  */
 footer {
-  background-color: yellow;
+  background-color: #b5d7dc;
   bottom: 0;
   display: flex;
   align-items: center;
