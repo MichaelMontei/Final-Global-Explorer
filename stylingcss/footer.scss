@@ -1,4 +1,4 @@
-footer{
+/*footer{
   width: 100%;
   display: flex;
   background-color:#f8f9fa;
@@ -14,6 +14,22 @@ footer{
     text-decoration: none;
   }
 
+}
+ */
+footer{
+  background-color: yellow;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  line-height: 1.8rem;
+
+  a{
+    color:  rgba(0,0,0,.55);
+  }
+  a:hover{
+    text-decoration: none;
+  }
 }
 @media only screen and (max-width: 765px) {
   footer{

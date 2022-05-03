@@ -24,6 +24,64 @@ p {
 /*
     ===== ACCENT COLOR =====
  */
+/*
+    ===== BACKGROUND COLOR =====
+ */
+/*
+    ===== TEXT COLORS =====
+ */
+/*
+    ===== ACCENT COLOR =====
+ */
+/*
+    ===== BACKGROUND COLOR =====
+ */
+/*
+    ===== TEXT COLORS =====
+ */
+/*
+    ===== ACCENT COLOR =====
+ */
+body {
+  background-color: rgb(245, 245, 240);
+}
+
+header {
+  position: static;
+}
+header h1 {
+  font-family: "Avenir Next", sans-serif;
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-style: italic;
+  color: rgb(107, 189, 201);
+}
+
+main {
+  position: static;
+  margin-top: 50px;
+}
+main h5 {
+  color: rgb(30, 25, 25);
+}
+main p.quote {
+  color: rgba(54, 54, 54, 0.8);
+  font-size: 16px;
+}
+main p.accent {
+  color: rgb(107, 189, 201);
+}
+
+.navbar-brand {
+  flex: 7;
+  padding-left: 40px;
+  position: sticky;
+}
+
+.nav-item {
+  margin-right: 10px;
+}
+
 .team4 {
   color: #8d97ad;
   font-weight: 300;
@@ -56,28 +114,23 @@ rounded circle {
   padding: 30px;
 }
 
-footer {
-  width: 100%;
-  display: flex;
-  background-color: #f8f9fa;
-  color: rgba(0, 0, 0, 0.55);
-  height: 70px;
-  align-items: center;
-  justify-content: space-around;
-  line-height: 1.8;
-}
-footer a {
-  color: rgba(0, 0, 0, 0.55);
-}
-footer a:hover {
-  text-decoration: none;
+.team4 h1 {
+  font-family: "Avenir Next", sans-serif;
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-style: italic;
+  color: rgb(107, 189, 201);
 }
 
-@media only screen and (max-width: 765px) {
-  footer {
-    display: none;
-  }
+footer {
+  background-color: yellow;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  line-height: 1.8rem;
 }
+
 /*
     ===== BACKGROUND COLOR =====
  */
@@ -489,15 +542,5 @@ header .nav-item {
   padding: 50px;
   width: 60%;
 }
-
-/*
-    ===== BACKGROUND COLOR =====
- */
-/*
-    ===== TEXT COLORS =====
- */
-/*
-    ===== ACCENT COLOR =====
- */
 
 /*# sourceMappingURL=style.css.map */

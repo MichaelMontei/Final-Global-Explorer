@@ -1,3 +1,6 @@
+@import "colors";
+
+@import "testimonials";
 
 .team4 {
   color: #8d97ad;
@@ -32,5 +35,18 @@ rounded circle{
 @media only screen and (max-width: 950px) {
 
 }
-
-@import "footer";
+.team4 h1{
+  font-family: "Avenir Next", sans-serif;
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-style: italic;
+  color: $blue;
+}
+footer{
+  background-color: yellow;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  line-height: 1.8rem;
+}
