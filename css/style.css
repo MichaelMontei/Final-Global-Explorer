@@ -331,6 +331,10 @@ header .nav-item {
   min-height: 650px;
 }
 
+.navbar navbar-expand-lg navbar-light d-flex {
+  background-color: #d7d5c6;
+}
+
 /*
     ===== BACKGROUND COLOR =====
  */
@@ -364,7 +368,7 @@ header .nav-item {
   position: fixed;
   top: 0;
   width: 100%;
-  background-color: rgb(245, 245, 240);
+  background-color: #d7d5c6;
 }
 
 .img-container-grid {
